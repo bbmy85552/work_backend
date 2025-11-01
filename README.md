@@ -1,3 +1,5 @@
+nohup python main.py > output.log 2>&1 &
+
 # TTS Backend Service
 
 基于FastAPI的文本转语音后端服务，封装阿里云DashScope TTS API。
